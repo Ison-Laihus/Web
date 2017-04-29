@@ -51,7 +51,6 @@
 			top -= scrollTop;
 			console.log(top);
 			console.log(scrollTop);
-			// console.log(cTop);
 			console.log(height);
 			if ( value &&  top<Math.floor(height/2) ) {
 				var div = document.createElement("div");
@@ -59,7 +58,7 @@
 				div.className = color[num];
 				current.id = "";
 				div.id = "current";
-				document.body.append(div);
+				document.body.appendChild(div);
 			}
 		}
 
